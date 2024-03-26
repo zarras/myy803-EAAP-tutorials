@@ -1,0 +1,69 @@
+package myy803.eaap.transactionscript.scripts;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class TransactionScripts {
+	public static final int STOP_STATUS_OK = 0;
+	public static final int STOP_STATUS_CLOSED = 1;
+
+
+	public String checkStopStatus(int stopId) {
+		String statusReport = "";
+		
+		try {
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/city_bus_schema", "root", "root");
+			
+			PreparedStatement stm = connection.prepareStatement("SELECT status FROM stops WHERE id = ?");
+			stm.setInt(1, stopId);
+			ResultSet rs = stm.executeQuery();
+			
+			if(rs.next()) {
+				int stopStatus = rs.getInt("status");
+				if(stopStatus == TransactionScripts.STOP_STATUS_OK)
+					statusReport = "Bus stop " + stopId + " is FUNCTIONAL";
+				else 
+					statusReport = "Bus stop " + stopId + " is CLOSED";
+			}
+			
+			connection.close();	
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return statusReport;
+	}
+	
+	public String checkRouteStatus(int routeId) {
+		String statusReport = "";
+		try {
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/city_bus_schema", "root", "root");
+		
+			PreparedStatement stm = connection.prepareStatement("SELECT id, status FROM stops WHERE route_id = ?");
+			stm.setInt(1, routeId);
+			ResultSet rs = stm.executeQuery();
+			
+			while (rs.next()) {
+				
+				int stopId = rs.getInt("id");
+				int stopStatus = rs.getInt("status");
+
+				if(stopStatus == TransactionScripts.STOP_STATUS_OK)
+					statusReport += "Bus stop " + stopId + " is FUNCTIONAL ";
+				else 
+					statusReport += "Bus stop " + stopId + " is CLOSED ";	
+			}
+			
+			connection.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+		return statusReport;	
+	}
+	
+}

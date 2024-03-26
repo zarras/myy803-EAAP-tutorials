@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\domainmodel.datamapper.springboot"/>
+			<item value="C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\tutorial-jdbc-example-master"/>
+			<item value="C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\transaction-script"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,55 @@
+package myy803.eaap.domainmodel.datamapper.example.mappers;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import myy803.eaap.domainmodel.datamapper.example.domainmodel.Route;
+
+public class RouteMapper {
+	
+	public void saveRoute(Route route) {
+		try {
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/city_bus_schema", "root", "root");
+
+			PreparedStatement stm = connection.prepareStatement("INSERT INTO routes VALUES (?, ?, null, null)");
+			stm.setInt(1, route.getId());
+			stm.setString(2, route.getName());
+			
+			stm.executeUpdate();	
+			
+			connection.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void deleteRoute(int routeId){
+		try {
+
+			StopMapper stopGateway = new StopMapper();
+			ResultSet rs = stopGateway.findStopsByRouteId(routeId);
+
+			while (rs.next()) {
+				int stopId = rs.getInt("id");
+				stopGateway.deleteStop(stopId);
+			}
+			rs.close();
+			
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/city_bus_schema", "root", "root");
+			PreparedStatement stm = connection.prepareStatement("DELETE FROM routes WHERE id = ?");			
+			stm.setInt(1, routeId);
+		
+			stm.executeUpdate();	
+
+			connection.close();
+
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+}

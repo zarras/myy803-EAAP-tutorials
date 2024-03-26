@@ -1,0 +1,12 @@
+1711378564167	Rename package 'myy803.eaap.tablemodulegateway.example'
+1711378596957	Rename package 'myy803.eaap.domainmodel.datamapper.example.gateways'
+1711378622757	Rename package 'myy803.eaap.domainmodel.datamapper.example.modules'
+1711378680788	Rename type 'StopModule'
+1711379097869	Rename type 'RouteModule'
+1711379567905	Rename method 'checkStatus'
+1711379586196	Rename method 'checkStatus'
+1711379634177	Rename type 'StopGateway'
+1711379652441	Rename type 'RouteGateway'
+1711380085758	Rename method 'changeStatus'
+1711386496374	Copy compilation units
+1711387955104	Copy file

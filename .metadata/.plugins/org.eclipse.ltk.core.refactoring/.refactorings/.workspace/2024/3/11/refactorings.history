@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;transaction-script&apos; to &apos;table-module&apos;" description="Rename resource &apos;transaction-script&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/transaction-script" name="table-module" stamp="1710343798251" updateReferences="true"/>
+</session>

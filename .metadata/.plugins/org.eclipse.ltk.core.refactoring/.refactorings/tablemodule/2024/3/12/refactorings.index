@@ -1,0 +1,9 @@
+1711015154872	Rename package 'myy803.eaap.transactionscript'
+1711015224347	Rename package 'myy803.eaap.tablemodule.example.scripts'
+1711015231514	Copy compilation unit
+1711015244910	Rename type 'TransactionScripts'
+1711015262117	Rename type 'TransactionScripts2'
+1711015739236	Rename local variable 'tModule'
+1711015750219	Rename local variable 'rModule'
+1711016352538	Extract method 'findStopsByRouteId'
+1711016464368	Rename local variable 'connection2'

@@ -1,0 +1,31 @@
+package myy803.eaap.domainmodel.datamapper.example.domainmodel;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import myy803.eaap.domainmodel.datamapper.example.mappers.StopGateway;
+
+public class Route {
+	
+	public String checkRouteStatus(int routeId) {
+		String statusReport = "";
+		try {
+			StopGateway stopGateway = new StopGateway();
+			Stop stopModule = new Stop();
+			
+			ResultSet rs = stopGateway.findStopsByRouteId(routeId);			
+			
+			while (rs.next()) {
+				int stopId = rs.getInt("id");
+				statusReport += stopModule.checkStopStatus(stopId) + " ";			
+			}	
+			
+			rs.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	
+		return statusReport;	
+	}
+	
+}

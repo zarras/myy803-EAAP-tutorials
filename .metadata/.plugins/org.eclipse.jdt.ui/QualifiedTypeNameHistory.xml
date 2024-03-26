@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="myy803.eaap.transactionscript.scripts.TransactionScripts"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="myy803.eaap.tablemodule.example.modules.StopModule"/>
+    <fullyQualifiedTypeName name="myy803.eaap.tablemodulegateway.example.gateways.RouteGateway"/>
+    <fullyQualifiedTypeName name="myy803.eaap.tablemodulegateway.example.gateways.StopGateway"/>
+    <fullyQualifiedTypeName name="myy803.eaap.domainmodel.datamapper.example.domainmodel.Stop"/>
+    <fullyQualifiedTypeName name="myy803.eaap.domainmodel.datamapper.example.domainmodel.Route"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="domainmodel.datamapper.springboot.mappers.RouteMapper"/>
+    <fullyQualifiedTypeName name="domainmodel.datamapper.springboot.domainmodel.Route"/>
+    <fullyQualifiedTypeName name="domainmodel.datamapper.springboot.domainmodel.Stop"/>
+    <fullyQualifiedTypeName name="org.hibernate.mapping.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
