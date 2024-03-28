@@ -1,5 +1,0 @@
-package myy803.eaap.transactionscript.scripts;
-
-public interface TransactionScript {
-	void execute()
-}
