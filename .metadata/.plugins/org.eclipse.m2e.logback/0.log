@@ -1932,3 +1932,51 @@ org.eclipse.core.runtime.CoreException: Launch configuration Myy803JpaTutorial1A
 2024-03-28 18:42:07,315 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
 2024-03-28 18:42:07,344 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5ad60335{HTTP/1.1, (http/1.1)}{127.0.0.1:59505}
 2024-03-28 18:42:07,367 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@752e9978{STARTING}[12.0.3,sto=0] @29299326ms
+2024-03-28 19:10:28,453 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-03-28 19:10:28,512 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2024-03-28 19:10:28,519 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\mvc.controller.templateengine\src\test\resources
+2024-03-28 23:33:04,092 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@752e9978{STOPPING}[12.0.3,sto=0]
+2024-03-28 23:33:04,106 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5ad60335{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-04-01 13:04:39,446 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-04 17:24:36,882 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-07 19:55:41,599 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-07 19:57:25,584 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:25,603 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:25,610 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\classtable.inheritence\src\test\resources
+2024-04-07 19:57:27,247 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:27,274 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:27,280 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\concretetable.inheritence\src\test\resources
+2024-04-07 19:57:27,483 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-04-07 19:57:27,635 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\domainmodel.datamapper\src\main\resources
+2024-04-07 19:57:27,639 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\domainmodel.datamapper\src\test\resources
+2024-04-07 19:57:32,598 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:32,612 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:32,620 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\domainmodel.datamapper.springboot\src\test\resources
+2024-04-07 19:57:33,451 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:33,462 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:33,470 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\foreignkey.mapping\src\test\resources
+2024-04-07 19:57:35,833 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:35,851 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2024-04-07 19:57:35,866 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\mvc.controller.templateengine\src\test\resources
+2024-04-07 19:57:36,601 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:36,614 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-07 19:57:36,623 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\singletable.inheritence\src\test\resources
+2024-04-07 19:57:36,750 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-04-07 19:57:36,768 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\tablemodule\src\main\resources
+2024-04-07 19:57:36,771 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\tablemodule\src\test\resources
+2024-04-07 19:57:36,876 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-04-07 19:57:36,896 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\tablemodule.gateway\src\main\resources
+2024-04-07 19:57:36,899 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\tablemodule.gateway\src\test\resources
+2024-04-07 19:57:36,994 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-04-07 19:57:37,010 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\transactionscript\src\main\resources
+2024-04-07 19:57:37,011 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\zarras\Documents\zarras-work\courses\soft-eng\slides\myy803-EAAP-tutorials\transactionscript\src\test\resources
+2024-04-08 12:12:08,683 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-11 20:00:01,542 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-15 11:54:07,118 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-15 14:09:57,609 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.10+11-LTS-240
+2024-04-15 14:09:57,718 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@6a8502d0{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7181a37d{STARTED}}
+2024-04-15 14:09:57,724 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-04-15 14:09:57,773 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1e04cec8{HTTP/1.1, (http/1.1)}{127.0.0.1:50299}
+2024-04-15 14:09:57,813 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@58b05fff{STARTING}[12.0.3,sto=0] @8209530ms
+2024-04-15 20:05:15,732 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@58b05fff{STOPPING}[12.0.3,sto=0]
+2024-04-15 20:05:15,736 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1e04cec8{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

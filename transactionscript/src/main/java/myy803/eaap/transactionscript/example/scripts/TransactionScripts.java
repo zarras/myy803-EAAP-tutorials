@@ -107,9 +107,6 @@ public class TransactionScripts {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
-		String sql = "UPDATE Registration " +
-	            "SET age = 30 WHERE id in (100, 101)";
 	}
 	
 	public String reportStopStatus(int stopId) {
